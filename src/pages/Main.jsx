@@ -40,7 +40,7 @@ const Main = forwardRef(({ data }, ref) => {
                                 <Element
                                     name={ques.question_id}
                                     key={ques.question_id}
-                                    className="pb-6 border-b border-gray-100 last:border-0 question-block"
+                                    className="pb-6 border-b border-gray-100 last:border-0 question-block overflow-x-auto"
                                 >
                                     <h3 className="text-lg font-bold text-gray-800 mb-3">
                                         {ques.question_text}
