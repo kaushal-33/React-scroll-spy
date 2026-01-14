@@ -8,7 +8,7 @@ const Main = forwardRef(({ data }, ref) => {
 
     return (
         <main
-            className="flex-1 overflow-y-auto px-8 py-8 custom-scrollbar bg-white"
+            className="flex-1 overflow-x-hidden px-8 py-8 custom-scrollbar bg-white"
             id="main-content-area"
             ref={ref}
         >
